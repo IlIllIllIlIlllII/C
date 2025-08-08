@@ -1,0 +1,8 @@
+입력 = input().split(" ")
+A = int(입력[0])
+B = int(입력[1])
+C = int(입력[2])
+print((A + B) % C)
+print(((A % C) + (B % C)) % C)
+print((A * B) % C)
+print((A % C) * (B % C) % C)
